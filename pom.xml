@@ -252,4 +252,26 @@
        <version>0.0.3</version>
     </dependency>
   </dependencies>
+  
+  <repositories>
+		<repository>
+			<id>info-bliki-repository</id>
+			<url>http://gwtwiki.googlecode.com/svn/maven-repository/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>antoine-tran-github-releases</id>
+			<name>Tuan Tran's Personal Repository for Maven</name>
+			<url>https://raw.github.com/antoine-tran/maven-repo/master/releases</url>
+		</repository>
+		<repository>
+			<id>cloudera</id>
+			<name>Cloudera Repository</name>
+			<url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+		</repository>
 </project>
